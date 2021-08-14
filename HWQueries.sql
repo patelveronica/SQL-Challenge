@@ -36,7 +36,3 @@ select last_name, count(last_name) as frequency from employees
 group by  last_name
 order by frequency DESC;
 
-
-select * from department;
-select * from employees where emp_title_id = 'd007';
-select * from dept_employee 

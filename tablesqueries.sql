@@ -32,12 +32,12 @@ DROP TABLE employees;
 -- Create employees table
 CREATE TABLE employees (
 	emp_no INT,
-	emp_title_id VARCHAR,
-	birth_date DATE,
+	emp_title_id int,
+	birth_date VARCHAR,
 	first_name VARCHAR,
 	last_name  VARCHAR,
 	sex  VARCHAR,
-	hire_date DATE
+	hire_date VARCHAR
 );
 
 -- drop table if exists
@@ -46,7 +46,7 @@ DROP TABLE salaries;
 -- Create salaries table
 CREATE TABLE salaries (
 	emp_no INT,
-	salary MONEY
+	salary INT
 )
 
 -- drop table if exists
@@ -54,7 +54,7 @@ DROP TABLE titles;
 
 -- Create titles table
 CREATE TABLE titles (
-	title_id VARCHAR,
+	title_id int,
 	title VARCHAR
 )
 
